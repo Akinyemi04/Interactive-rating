@@ -21,12 +21,12 @@ body{
   height:100vh;
 }
 P{
-  font-size:x-small;
+  font-size:small;
   padding: 1px;
   color: hsl(217, 12%, 63%);
 }
 h1{
-  font-size:large;
+  font-size:larger;
   color: white;
 }
 ul{
@@ -47,8 +47,8 @@ li{
   border-radius: 50%;
   background-color:hsl(216, 12%, 54%);
   color: white;
-  width: 98%;
-  height: 120%;
+  width: 6vh;
+  height: 6vh;
 }
 .xcv{
   padding:2% 40%;
