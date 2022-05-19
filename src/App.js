@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Firstbody from './Components/Firstbody';
 import './App.css';
-
+import Secondbody from './Components/Secondbody';
+import React,{useState} from 'react'
+const data=[1,2,3,4,5]
 function App() {
+  const[change,setChange]=useState(true)
+  const[vile,setVile]=useState('')
+  function Node(name){
+    setVile(name)
+  }
+  function Peace(name){
+    setChange(name)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {change? <Firstbody data={data} peace={Peace} del={Node}/>:<Secondbody data={vile}/>}
+    
     </div>
   );
 }

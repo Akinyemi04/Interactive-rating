@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+body{
+  background-color: hsl(216, 12%, 8%);
+  height:50vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sin img{
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sin{
+  position: relative;
+  margin: 0 auto;
+  background-color:hsl(213, 19%, 18%) ;
+  width:22%;
+  top: 25%;
+  padding:2%;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 5%;
+  height:42vh;
+  white-space: nowrap;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App{
+  height:100vh;
+}
+P{
+  font-size:x-small;
+  padding: 1px;
+  color: hsl(217, 12%, 63%);
+}
+h1{
+  font-size:large;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+ul{
+  display: flex;
+  justify-content:flex-start;
+  list-style: none;
+  margin: 0px;
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+li{
+  margin:3%;
+  width: 13%;
+}
+.btn{
+  border:1px solid hsl(213, 19%, 18%) ;
+  border-radius: 50%;
+  background-color:hsl(216, 12%, 54%);
+  color: white;
+  width: 98%;
+  height: 120%;
+}
+.xcv{
+  padding:2% 40%;
+  margin-top:2%;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius:15px;
+  background-color: orange;
+  color: white;
+}
+#spirit{
+  padding-left:21%;
+  width:50% ;
+}
+#op{
+  margin-top: 6%;
+  margin-left:15%;
+  font-size:x-small;
+  border: 1px solid hsl(213, 19%, 18%) ;
+  border-radius:15px;
+  background-color:hsl(216, 12%, 54%) ;
+  color: orange;
+  padding:2% 4%;
+}
+#ease{
+  font-size:small;
+  margin-left: 30%;
+}
+#pill{
+  color: hsl(217, 12%, 63%);
+  font-size: xx-small;
+  padding-left: 7%;
+}
+#pillx{
+  color: hsl(217, 12%, 63%);
+  font-size: xx-small;
+  padding-left: 8%;
+}
+#pilly{
+  color: hsl(217, 12%, 63%);
+  font-size: xx-small;
+  padding-left: 29%;
+}
+.btn:hover{
+  background-color: orange;
+}
+.xcv:hover{
+  background-color: white;
+  color:orange;
+}
+@media screen and (max-width:375px) {
+  .sin{
+    width:70%;
+    top:26%;
+    height:30vh ;
   }
-  to {
-    transform: rotate(360deg);
+  ul{
+    margin-left:7%;
+  }
+  .xcv{
+    padding: 3% 34%;
+    margin-top:5%;
+    margin-left: 8%;
+  }
+  #op{
+    margin-left:24%;
+  }
+  p{
+    padding-left: 2%;
+  }
+  h1{
+    padding-left: 2%;
+  }
+  #piz{
+    margin-left:7% ;
+    margin-top: 3%;
+  }
+  
+  .btn{
+      width: 90%;
+      height:120% ;
   }
 }
