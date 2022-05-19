@@ -117,9 +117,11 @@ li{
   }
   p{
     padding-left: 2%;
+    font-size:smaller;
   }
   h1{
     padding-left: 2%;
+    font-size: large;
   }
   #piz{
     margin-left:7% ;
