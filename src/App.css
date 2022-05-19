@@ -132,4 +132,7 @@ li{
       width: 90%;
       height:120% ;
   }
+  li{
+    margin: 2%;
+  }
 }
